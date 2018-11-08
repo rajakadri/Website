@@ -1,0 +1,31 @@
+/*window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navBarContainer").style.top = "0";
+  } else {
+    document.getElementById("navBarContainer").style.top = "-50px";
+  }
+}*/
+
+$(document).ready(function(){
+$("#btn").on('mouseover', () => {
+$("#btn").css({
+backgroundColor: "white",
+color: "#4CAF50"
+});
+$(".navMedia").slideDown();
+});
+$(".navMedia").on('mouseenter', () => {
+$(".navMedia").show();
+});
+$("#btn").on('mouseleave', () => {
+$("#btn").css({
+backgroundColor: "#4CAF50",
+color: "white"
+});
+});
+$(".navMedia").on('mouseleave', () => {
+$(".navMedia").slideUp();
+});
+});
