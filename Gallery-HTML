@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Best Alterations | Gallery</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href='style.css' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <nav>
+    <div class='navBarContainer'>
+      <h2 id='logo'><a href="index.html">Best Alterations & Shoe Repair</a></h2>
+      <ul id='navList'><span>
+          <li id='e4'>Gallery</li>
+        </span><span>
+          <li id='e3'><a href='reviews.html'>Reviews</a></li>
+        </span><span>
+          <li id='e2'><a href='contact.html'>Contact</a></li>
+        </span><span>
+          <li id='e1'><a href='about.html'>About</a></li>
+        </span></ul>
+    </div>
+  </nav>
+  <div class='aboutColumn'>
+    <h1 id='aboutMeHead'>About Me</h1>
+    <p id='aboutMePara'>GALLERY
+      <br><br> Thank you for taking an interest in my business! I hope to see you soon!
+    </p>
+    <img id='abtImg' src="about.jpg">
+  </div>
+</body>
+<footer>
+</footer>
+
+</html>
