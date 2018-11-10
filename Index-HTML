@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Best Alterations</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href='style.css' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    #googleMap {
+height: 400px;
+width: auto;
+}
+</style>
+</head>
+
+<body>
+  <nav>
+    <div class='navBarContainer'>
+      <h2 id='logo'><a href="index.html">Best Alterations & Shoe Repair</a></h2>
+      <ul id='navList'>
+        <span>
+          <li id='e4'><a href='gallery.html'>Gallery</a></li>
+        </span>
+        <span>
+          <li id='e3'><a href='reviews.html'>Reviews</a></li>
+        </span>
+        <span>
+          <li id='e2'><a href='contact.html'>Contact</a></li>
+        </span>
+        <span>
+          <li id='e1'><a href='about.html'>About</a></li>
+        </span>
+      </ul>
+    </div>
+  </nav>
+      <div class='headingContainer'>
+        <h1 id='bannerTitle'>Best Alterations</h1>
+        <div class='navMediaContainer'>
+          <div class='btnHover'>
+            <button id='btn'>Hover Here</button>
+          </div>
+          <div class='navMedia'>
+            <ul id='dropdownList'>
+              <li><a href="https://www.google.com/" target="_blank">Entry 1</a></li>
+              <li><a href="https://www.w3schools.com/" target="_blank">Entry 2</a></li>
+              <li><a href="#">Entry 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class='cardContainer'>
+        <div class='intro'>
+          <p>We specialize in wedding gown, prom dress, homecoming dress, and suit alterations. We also offer shoe repair, reweaving, and cleaning services. Same day service available for most alterations.</p>
+        </div>
+        <div class='cards'>
+        </div>
+      </div>
+
+      <div class='mapContainer'>
+        <h1>Test Map</h1>
+        <div id='googleMap'>
+          <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.5033321038823!2d-84.39306458504774!3d34.005288927651016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50cddd9accd81%3A0x6c1f45a5914dd99a!2s1000+Marietta+Hwy+%23200%2C+Roswell%2C+GA+30075!5e0!3m2!1sen!2sus!4v1541433681062" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+-->
+          <script>
+            function initMap() {
+              let map = new google.maps.Map(document.getElementById('googleMap'), {
+                center: {
+                  lat: 34.005200,
+                  lng: -84.390860
+                },
+                zoom: 8
+              });
+            }
+          </script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWE1szaPjVFB4yxOSfTt6P4QsU275lHS0&callback=initMap">
+          </script>
+        </div>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+<footer>
+</footer>
+</html>
