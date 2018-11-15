@@ -88,7 +88,7 @@ width: auto;
               });
             }
           </script>
-          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWE1szaPjVFB4yxOSfTt6P4QsU275lHS0&callback=initMap">
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=APIKEY&callback=initMap">
           </script>
         </div>
       </div>
