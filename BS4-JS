@@ -1,0 +1,28 @@
+$(document).ready(function() {
+  let didScroll;
+  $(window).on('scroll', event() => {
+    didScroll = true;
+  });
+
+
+
+  $("#btn").on('mouseover', () => {
+    $("#btn").css({
+      backgroundColor: "white",
+      color: "#4CAF50"
+    });
+    $(".navMedia").slideDown();
+  });
+  $(".navMedia").on('mouseenter', () => {
+    $(".navMedia").show();
+  });
+  $("#btn").on('mouseleave', () => {
+    $("#btn").css({
+      backgroundColor: "#4CAF50",
+      color: "white"
+    });
+  });
+  $(".navMedia").on('mouseleave', () => {
+    $(".navMedia").slideUp();
+  });
+});
