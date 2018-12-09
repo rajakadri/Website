@@ -1,0 +1,119 @@
+html,
+body,
+header,
+#bannerImage {
+    height: 100%;
+}
+
+body {
+  background: #e52d27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#visNavBar {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+span {
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.titleContainer {
+  color: white !important;
+}
+
+#bannerImage {
+background: url("../SRC/banner.jpg")no-repeat center center fixed;
+background-size: cover;
+}
+
+#bannerTitle, .navMediaContainer {
+  text-align: center;
+}
+
+#aboutImage{
+  margin-bottom: 50px;
+}
+
+.intro {
+  text-align: center;
+  color: white;
+}
+
+.mapContainer {
+  height: 400px;
+  width: 100%;
+  position: center;
+}
+
+.omegalol {
+  color: white;
+  display: relative;
+  width: 100%;
+  height: 400px;
+}
+
+i {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#ftrContainer {
+  text-align: right;
+}
+
+.img-thumbnail {
+}
+
+.col-sm {
+height: auto;
+width: auto;
+}
+
+#scrollBtn {
+  border-radius: 50%;
+}
+
+#scrollUpFooter {
+display: none;
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 60px;
+line-height: 60px;
+}
+
+#linkFooter {
+  background-color: black;
+}
+
+@media (max-width: 990px) {
+#visNavBar {
+display: none !important;
+}
+#hiddenNav {
+visibility: visible !important;
+}
+}
+
+@media (min-width: 991px) {
+#visNavBar {
+visibility: visible !important;
+}
+#hiddenNav {
+display: none !important;
+}
+}
