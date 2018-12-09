@@ -1,6 +1,7 @@
 # Website
 
-This is a personal project to create a website for the company Best Alterations (with their permission). Currently a work in progress.
+This is a personal project to create a website for the company Best Alterations (with their permission). Currently a work in progress. This website is strickly for infromation and does not actually take any orders or interacts with users (User reviews section may be added at a later date if possible).
+
 The goals of this project are:
 
 1) Create a website for customers to use that displays all the information about the company Best Alterations.
